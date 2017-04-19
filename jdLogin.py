@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO,
 
 
 class JdSpider(object):
-    """京东火车票"""
+    """京东爬虫"""
 
     def __init__(self, data_dic):
         super(JdSpider, self).__init__()
