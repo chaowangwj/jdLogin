@@ -173,7 +173,7 @@ class JdSpider(object):
             return {"status": False, "message": response.content, "code": 10}
 
 if __name__ == '__main__':
-    data_dic = dict(channalName="18356303053", channalPwd="chao11305623")
+    data_dic = dict(channalName="", channalPwd="")
     jd = JdSpider(data_dic)
     rst = jd.login()
     print rst
